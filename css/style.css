@@ -252,19 +252,12 @@ span {
     box-shadow: none;
 }
 
-/* .about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background: var(--second-bg-color);
-} */
 .about {
     background: var(--second-bg-color) }
     .about__content {
       display: flex;
-      /* justify-content: center;
-      align-items: center; */
+      justify-content: center;
+      align-items: center;
       grid-template-columns: 1fr 1fr;
       grid-gap: 10rem; }
       @media only screen and (max-width: 56.25em) {
@@ -274,7 +267,8 @@ span {
       .about__content-title {
         font-weight: 700;
         font-size: 2.8rem;
-        margin-bottom: 3rem; }
+        margin-bottom: 3rem; 
+        margin-top:  5rem;}
         @media only screen and (max-width: 37.5em) {
           .about__content-title {
             font-size: 2.4rem; } }
@@ -289,6 +283,13 @@ span {
           margin: 0 3px; }
         .about__content-details-para:last-child {
           margin-bottom: 4rem; }
+
+.about-img img {
+    display: flex;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+}
 
 .skills {
     display: flex;
@@ -344,10 +345,6 @@ span {
     background: var(--second-bg-color);
 }
 
-/* .about-img img {
-    width: 35vw;
-} */
-
 .education-img img {
     width: 35vw;
 }
@@ -361,11 +358,6 @@ span {
     font-size: 4.5rem;
 }
 
-/* .about-content h2 {
-    text-align: left;
-    line-height: 1.2;
-} */
-
 .education-content h2 {
     text-align: left;
     line-height: 1.2;
@@ -376,10 +368,6 @@ span {
     line-height: 1.2;
 }
 
-/* .about-content h3 {
-    font-size: 2.6rem;
-} */
-
 .education-content h3 {
     font-size: 2.6rem;
 }
@@ -387,11 +375,6 @@ span {
 .experience-content h3 {
     font-size: 2.6rem;
 }
-
-/* .about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-} */
 
 .education-content p {
     font-size: 1.6rem;
@@ -668,10 +651,6 @@ span {
         margin-top: 4rem;
     }
 
-    /* .about {
-        flex-direction: column-reverse;
-    } */
-
     .education {
         flex-direction: column-reverse;
     }
@@ -679,11 +658,6 @@ span {
     .experience {
         flex-direction: column-reverse;
     }
-
-    /* .about img {
-        width: 70vw;
-        margin-top: 4rem;
-    } */
 
     .education img {
         width: 70vw;
@@ -728,10 +702,6 @@ span {
     .home-img img {
         width: 90vw;
     }
-
-    /* .about-img img  {
-        width: 90vw;
-    } */
 
     .education-img img  {
         width: 90vw;
